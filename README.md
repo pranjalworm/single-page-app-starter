@@ -1,2 +1,2 @@
-# single-page-app-starter
-Single page application app starter code made using Stencil JS.
+# single-page-pwa-app-starter
+Single page progressive web application starter code made using Stencil JS.
