@@ -1,0 +1,22 @@
+{
+  "name": "click",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Pranjal Dubey Photography Website",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "start:prod": "stencil build --watch --serve"
+  },
+  "dependencies": {
+    "@stencil/core": "latest",
+    "@stencil/router": "latest",
+    "@stencil/sass": "latest",
+    "chokidar": "^3.2.1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@stencil/store": "latest",
+    "workbox-build": "4.3.1"
+  }
+}

@@ -1,0 +1,50 @@
+@import "../../global/styles/local-master";
+
+#about-me-root {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0% 40px;
+  color: var(--font-color-dark);
+  height: 80vh;
+
+  @media (max-width: 780px) {
+    flex-direction: column-reverse;
+    height: 100%;
+    margin: 0% 30px;
+  }
+
+  #description {
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    justify-content: space-between;
+    width: 50%;
+
+    @media (max-width: 780px) {
+      width: 100%;
+      height: 100%;
+      justify-content: space-around;
+      height: 100%;
+    }
+
+    #source-link {
+      text-decoration: none;
+      color: var(--font-color-accent);
+    }
+  }
+
+  #image-div {
+    text-align: center;
+    height: 70vh;
+
+    img {
+      height: 100%;
+    }
+
+    @media (max-width: 780px) {
+      height: 50vh;
+      margin-bottom: 20px;
+    }
+  }
+}
